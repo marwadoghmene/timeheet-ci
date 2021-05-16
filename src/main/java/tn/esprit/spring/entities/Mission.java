@@ -22,7 +22,7 @@ public class Mission implements Serializable {
 	private int id;
 	
 	private String name;
-	private String name2;
+	
 	private String description;
 	
 	@ManyToOne
