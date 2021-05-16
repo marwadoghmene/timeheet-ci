@@ -16,12 +16,13 @@ public class Mission implements Serializable {
 	private static final long serialVersionUID = -5369734855993305723L;
 
 	// Auto Increment 
+	//ajout comm git test
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
 	
 	private String name;
-	
+	private String name2;
 	private String description;
 	
 	@ManyToOne
